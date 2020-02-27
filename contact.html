@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <header>
+      <nav>
+        <ul>
+<!--           <img  id="flag" src="https://images.fineartamerica.com/images-medium-large-5/guatemala-flag-vintage-distressed-finish-design-turnpike.jpg" alt="guateFleg"> -->
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="it.html">IT</a></li>
+          <li><a href="todo.html">TODO</a></li>
+          <li><a href="index.html">HOME</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--FORM-->
+    <main id="main">
+      <form class="cmxform" id="commentForm" method="get" action="#" style="max-width:600px; margin:auto; background-color: rgba(253, 253, 253, 0.8); text-align: center; font-family: 'Bree Serif', serif;">
+
+        <fieldset class="form_login">
+          <legend><strong>Please provide your name, email, phone number and a comment.</strong></legend>
+
+          <p>
+            <label for="cname"><strong>Full Name</strong></label>
+            <input id="cname" name="name" minlength="2" type="text" required>
+          </p>
+          <p>
+            <label for="cemail"><strong>E-Mail </strong></label>
+            <input id="cemail" type="email" name="email" required>
+          </p>
+          <p>
+            <label for="cnumber"><strong>Phone Number</strong></label>
+            <input id="cnumber"  type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+          </p>
+          <p>
+            <label for="ccomment"><strong>Your comment</strong></label>
+            <textarea id="ccomment" name="comment" required></textarea>
+          </p>
+          <p>
+            <label for="cagree"><input type="checkbox" id="cagree" name="agree" value="agree" /> <strong>Please agree to our policy</strong></label>
+          </p>
+          <p>
+            <input class="submit" type="submit" value="Submit">
+          </p>
+        </fieldset>
+      </form>
+    </main>
+
+    <!--Footer-->
+    <footer>
+      <nav >
+        <ul>
+          <li><a href="https://www.facebook.com" class="fa fa-facebook" target="_blank" rel="noopener">.</a></li>
+          <li><a href="https://twitter.com/login" class="fa fa-twitter" target="_blank" rel="noopener">.</a></li>
+          <li><a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank" rel="noopener">.</a></li>
+          <li><a href="https://www.youtube.com/" class="fa fa-youtube" target="_blank" rel="noopener" >.</a></li>
+        </ul>
+      </nav>
+    </footer>  
+
+  </body>
+</html>

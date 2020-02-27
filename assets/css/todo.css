@@ -1,0 +1,125 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+/*******NAVBAR******/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:	#4999C7 ;
+}
+
+nav li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#flag{
+  width:100px;
+  height: 60px;
+}
+
+/**************information*************/
+.sub {
+  padding: 10px;
+  margin-top: 30px;
+
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.subhead{
+    text-transform: uppercase;
+    border-bottom: 2px solid #2f2f2f;
+    border-top: 2px solid #2f2f2f;
+    padding: 13px 0 12px 0;
+    text-align: center;
+}
+h2{
+  text-align: center;
+  font-size: 35px;
+}
+.Img{
+  width: 700px;
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} 
+.leftImg{
+  width: 460px;
+  height: 343px;
+  float: left;
+  margin-right: 11px;
+ 
+}
+h3{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+}
+
+/*********Grid-Container***********/
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.grid-container > div {
+  background-color: #99caf5;
+  padding: 19px 0;
+  font-size: 23px;
+}
+
+/****Footer****/
+footer {
+  position: absolute;
+   width: 100%;
+   background-color: #4999C7 ;
+   color: white;
+   text-align: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  float: left;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
